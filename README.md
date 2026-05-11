@@ -59,9 +59,6 @@ Son los administradores principales del sistema. Tienen permisos para visualizar
 ### 📜 Comisión de Posgrado Regional (CPR)
 Actor con responsabilidad técnica crítica y diferenciada. Es el único rol encargado de cargar los datos específicos de las tesis (título, director, codirector, fecha de aprobación y número de resolución) para las carreras de maestría y doctorado.
 
-### 📈 Equipo de Conducción — Rol de Analista Estadístico
-Aunque forma parte del equipo administrativo, este rol utiliza el módulo de estadísticas para generar reportes globales y por cohorte sobre inscriptos, graduados, desgranamiento y estado de los trabajos finales (TFI o tesis) para la toma de decisiones.
-
 ---
 
 ## 🗂️ Épicas
@@ -129,7 +126,7 @@ Aunque forma parte del equipo administrativo, este rol utiliza el módulo de est
 | ID | Historia de Usuario |
 |---|---|
 | **US-05** | Como docente, quiero acceder a mi planilla vía enlace, para cargar asistencia y notas sin necesidad de usuario y contraseña. |
-| **US-13** | Como docente, quiero registrar la asistencia por fecha de cursada, para que el sistema calcule automáticamente si el alumno cumple el porcentaje mínimo requerido. |
+| **US-13** | Como docente, quiero registrar la asistencia por fecha de cursada, para para saber en todo momento quiénes están en riesgo de perder la regularidad y poder actuar antes de que sea tarde. |
 | **US-14** | Como docente, quiero recibir recordatorios automáticos por correo, para cumplir con la carga de notas en los plazos estipulados. |
 | **US-15** | Como docente, quiero descargar la planilla de mis alumnos en formato analógico, para utilizarla durante la cursada presencial. |
 
@@ -379,7 +376,7 @@ Aunque forma parte del equipo administrativo, este rol utiliza el módulo de est
 <summary><strong>US-16 · Reporte de desgranamiento</strong></summary>
 
 **Criterio 1:**
-- **Dado** que el analista selecciona una cohorte,
+- **Dado** que el equipo de conducción selecciona una cohorte,
 - **Cuando** genera el reporte,
 - **Entonces** el sistema muestra el porcentaje de alumnos que abandonaron la cursada respecto al total inicial.
 
