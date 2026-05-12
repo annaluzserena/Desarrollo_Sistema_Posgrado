@@ -9,6 +9,8 @@
 
 </div>
 
+- Repositorio del proyecto: [DesarrolloSistemaPosgrado](https://github.com/annaluzserena/Desarrollo_Sistema_Posgrado)
+
 ---
 
 ## 📋 Tabla de Contenidos
@@ -27,7 +29,7 @@
 ---
 
 <details>
-<summary>## 👨‍💻 Integrantes del Equipo</summary>
+## <summary>👨‍💻 Integrantes del Equipo</summary>
 
 | Nombre | GitHub |
 |---|---|
