@@ -553,7 +553,7 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 | US-21 | Inscripciones por cohorte | **2** | Contar registros agrupados por cohorte |
 | US-22 | Graduados por cohorte | **3** | Requiere cruzar dos conjuntos de datos |
 | US-23 | Ralentización de carrera | **5** | Definir y calcular el tiempo esperado vs. avance real por cohorte |
-<details>
+</details>
 
 ---
 
