@@ -39,6 +39,8 @@
 | Anna Luz Serena 6 | [@annaluzserena](https://github.com/annaluzserena) |
 </details>
 
+---
+
 <details>
 <summary>## 🌐 Contexto del Dominio</summary>
 
@@ -76,6 +78,7 @@ Son los administradores principales del sistema. Tienen permisos para visualizar
 ### 📜 Comisión de Posgrado Regional (CPR)
 Actor con responsabilidad técnica crítica y diferenciada. Es el único rol encargado de cargar los datos específicos de las tesis (título, director, codirector, fecha de aprobación y número de resolución) para las carreras de maestría y doctorado.
 </details>
+
 ---
 
 <details>
