@@ -13,6 +13,7 @@
 
 ## 📋 Tabla de Contenidos
 
+- [Integrantes del Equipo](#-integrantes-del-equipo)
 - [Contexto del Dominio](#-contexto-del-dominio)
 - [Actores del Sistema](#-actores-del-sistema)
 - [Épicas](#-épicas)
@@ -25,7 +26,21 @@
 
 ---
 
-## 🌐 Contexto del Dominio
+<details>
+<summary>## 👨‍💻 Integrantes del Equipo</summary>
+
+| Nombre | GitHub |
+|---|---|
+| Facundo Fernandes 1 | [@Facu067](https://github.com/Facu067) |
+| Aaron Gomez 2 | [@aarongomezgago](https://github.com/aarongomezgago) |
+| Belén Marti 3 | [@martibelen99](https://github.com/martibelen99) |
+| Ornela Nardulli  4 | [@nardulli03](https://github.com/nardulli03) |
+| Solange Rodrigo 5 | [@SolangeRodrigo](https://github.com/SolangeRodrigo) |
+| Anna Luz Serena 6 | [@annaluzserena](https://github.com/annaluzserena) |
+</details>
+
+<details>
+<summary>## 🌐 Contexto del Dominio</summary>
 
 > **Situación Actual (Problema)**
 >
@@ -41,8 +56,10 @@ El sistema a desarrollar cubre cuatro módulos principales:
 | 📊 **Estadísticas** | Módulo de reportes por cohorte y situación de carreras |
 
 ---
+</details>
 
-## 👥 Actores del Sistema
+<details>
+<summary>## 👥 Actores del Sistema</summary>
 
 ### 🙋 Aspirante
 Es el usuario externo interesado en una carrera. Su responsabilidad es acceder al sistema mediante un enlace para completar el formulario de inscripción web (datos personales, motivaciones, etc.) y cargar la documentación obligatoria en PDF (DNI, títulos, partida de nacimiento y formularios de beca si corresponde).
@@ -58,10 +75,11 @@ Son los administradores principales del sistema. Tienen permisos para visualizar
 
 ### 📜 Comisión de Posgrado Regional (CPR)
 Actor con responsabilidad técnica crítica y diferenciada. Es el único rol encargado de cargar los datos específicos de las tesis (título, director, codirector, fecha de aprobación y número de resolución) para las carreras de maestría y doctorado.
-
+</details>
 ---
 
-## 🗂️ Épicas
+<details>
+<summary>## 🗂️ Épicas</summary>
 
 ### `EP-01` · Gestión de Inscripciones
 **Alcance:** Cubre el proceso inicial desde que el aspirante accede al enlace web hasta que se conforma su legajo digital.
@@ -95,10 +113,12 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 **Alcance:** Agrupa las tareas de control administrativo y configuración.
 
 **Funcionalidades clave:** Apertura y cierre de los períodos de inscripción a las carreras, búsqueda individual de estudiantes y gestión de accesos restringidos para autoridades y CPR.
+</details>
 
 ---
 
-## 📖 Historias de Usuario
+<details>
+<summary>## 📖 Historias de Usuario</summary>
 
 ### EP-01 · Gestión de Inscripciones
 
@@ -147,10 +167,12 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 |---|---|
 | **US-18** | Como autoridad del área, quiero abrir o cerrar el período de inscripción, para controlar cuándo los aspirantes pueden acceder al formulario web. |
 | **US-19** | Como equipo de conducción, quiero realizar búsquedas individuales por estudiante, para consultar el avance de estudiantes específicos de forma ágil. |
+</details>
 
 ---
 
-## ✅ Criterios de Aceptación
+<details>
+<summary>## ✅ Criterios de Aceptación</summary>
 
 > Los criterios de aceptación son condiciones específicas y verificables que una historia de usuario **DEBE** satisfacer para considerarse completa. Se expresan en formato **Dado / Cuando / Entonces** (Gherkin).
 
@@ -485,10 +507,12 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 - **Cuando** hay coincidencias múltiples,
 - **Entonces** el sistema muestra una lista de resultados con nombre, carrera y cohorte para diferenciar a los alumnos.
 </details>
+</details>
 
 ---
 
-## 🎯 Story Points
+<details>
+<summary>## 🎯 Story Points</summary>
 
 La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo relativo de cada historia:
 
@@ -526,10 +550,12 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 | US-21 | Inscripciones por cohorte | **2** | Contar registros agrupados por cohorte |
 | US-22 | Graduados por cohorte | **3** | Requiere cruzar dos conjuntos de datos |
 | US-23 | Ralentización de carrera | **5** | Definir y calcular el tiempo esperado vs. avance real por cohorte |
+<details>
 
 ---
 
-## 🏷️ Priorización MoSCoW
+<details>
+<summary>## 🏷️ Priorización MoSCoW</summary>
 
 | Etiqueta | Significado |
 |---|---|
@@ -563,10 +589,12 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 | US-15 | Descarga de planilla analógica | 🟢 **C** | Soporte para clases presenciales, deseable para conveniencia docente |
 | US-16 | Reporte de desgranamiento | 🟢 **C** | Estadística compleja que puede esperar a una segunda etapa |
 | US-23 | Ralentización de carrera | 🟢 **C** | Indicador más complejo de calcular, requiere definir criterios de negocio |
+</details>
 
 ---
 
-## 🚀 Planificación de Sprints
+<details>
+<summary>## 🚀 Planificación de Sprints</summary>
 
 > **Configuración del equipo:** 6 integrantes · Velocidad estimada: ~18 SP por sprint · Duración: 2 semanas por sprint
 
@@ -658,10 +686,12 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 | US-15 | Descarga de planilla analógica para docentes | 🟢 C | 3 |
 | US-07 | Ingreso de motivaciones y fuente | 🟢 C | 2 |
 | **Total** | | | **18 SP** |
+</details>
 
 ---
 
-## 📊 Product Backlog Completo
+<details>
+<summary>## 📊 Product Backlog Completo</summary>
 
 | ID | Épica | Historia de Usuario | Criterios de Aceptación (resumen) | SP | Prior. | Sprint |
 |:---:|:---:|---|---|:---:|:---:|:---:|
@@ -688,6 +718,7 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 | US-12 | EP-02 | Como equipo de conducción, quiero descargar el perfil académico de un estudiante o cohorte, para tener un reporte físico del avance. | Dado que selecciona a un estudiante, cuando solicita descarga, entonces el sistema genera un archivo con todo su historial. / Dado que selecciona una cohorte completa, cuando solicita descarga, entonces el sistema genera un archivo comprimido con todos los perfiles. | 5 | 🟢 C | 5 |
 | US-15 | EP-03 | Como docente, quiero descargar la planilla de mis alumnos en formato analógico, para utilizarla durante la cursada presencial. | Dado que solicita la descarga, cuando la confirma, entonces el sistema genera un formato imprimible con los datos básicos. / Dado que se descarga la planilla, cuando se visualiza el archivo, entonces incluye nombre, apellido, DNI y correo. | 3 | 🟢 C | 5 |
 | US-07 | EP-01 | Como aspirante, quiero ingresar mis motivaciones y forma de conocer la oferta, para que el equipo de conducción evalúe mi perfil. | Dado que ingresa sus motivaciones, cuando escribe en el campo, entonces el sistema permite un máximo de 500 caracteres. / Dado que selecciona "Otros" como fuente, cuando confirma, entonces el sistema despliega un campo de texto adicional. | 2 | 🟢 C | 5 |
+</details>
 
 ---
 
