@@ -27,9 +27,9 @@
 - [Product Backlog](#-product-backlog-completo)
 
 ---
+## 👨‍💻 Integrantes del Equipo
 
 <details>
-## 👨‍💻 Integrantes del Equipo
 <summary><strong>Integrantes del equipo</strong></summary>
 
 | Nombre | GitHub |
@@ -43,9 +43,8 @@
 </details>
 
 ---
-
-<details>
 ## 🌐 Contexto del Dominio
+<details>
 <summary><strong>Contexto del Dominio</strong></summary>
 
 > **Situación Actual (Problema)**
@@ -63,9 +62,8 @@ El sistema a desarrollar cubre cuatro módulos principales:
 </details>
 
 ---
-
-<details>
 ## 👥 Actores del Sistema
+<details>
 <summary><strong>Actores del Sistema</strong></summary>
 
 ### 🙋 Aspirante
@@ -85,9 +83,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 </details>
 
 ---
-
-<details>
 ## 🗂️ Épicas
+<details>
 <summary><strong>Epicas</strong></summary>
 
 ### `EP-01` · Gestión de Inscripciones
@@ -125,9 +122,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 </details>
 
 ---
-
-<details>
 ## 📖 Historias de Usuario
+<details>
 <summary><strong>Historias de Usuario</strong></summary>
 
 ### EP-01 · Gestión de Inscripciones
@@ -180,9 +176,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 </details>
 
 ---
-
-<details>
 ## ✅ Criterios de Aceptación
+<details>
 <summary><strong>Criterios de Aceptación</strong></summary>
 
 > Los criterios de aceptación son condiciones específicas y verificables que una historia de usuario **DEBE** satisfacer para considerarse completa. Se expresan en formato **Dado / Cuando / Entonces** (Gherkin).
@@ -521,9 +516,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 </details>
 
 ---
-
-<details>
 ## 🎯 Story Points
+<details>
 <summary><strong>Story Points</strong></summary>
 
 La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo relativo de cada historia:
@@ -565,9 +559,8 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 </details>
 
 ---
-
-<details>
 ## 🏷️ Priorización MoSCoW
+<details>
 <summary><strong>Priorización MoSCoW</strong></summary>
 
 | Etiqueta | Significado |
@@ -605,9 +598,8 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 </details>
 
 ---
-
-<details>
 ## 🚀 Planificación de Sprints
+<details>
 <summary><strong>Planificación de Sprints</strong></summary>
 
 > **Configuración del equipo:** 6 integrantes · Velocidad estimada: ~18 SP por sprint · Duración: 2 semanas por sprint
@@ -703,9 +695,8 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 </details>
 
 ---
-
-<details>
 ## 📊 Product Backlog Completo
+<details>
 <summary><strong>Product Backlog Completo</strong></summary>
 
 | ID | Épica | Historia de Usuario | Criterios de Aceptación (resumen) | SP | Prior. | Sprint |
