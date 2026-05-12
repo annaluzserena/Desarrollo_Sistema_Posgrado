@@ -54,9 +54,9 @@ El sistema a desarrollar cubre cuatro módulos principales:
 | 🎓 **Académico** | Perfil del estudiante, seminarios, asistencia y calificaciones |
 | 👨‍🏫 **Docentes** | Planilla de carga online, registro de asistencia y notas por seminario |
 | 📊 **Estadísticas** | Módulo de reportes por cohorte y situación de carreras |
+</details>
 
 ---
-</details>
 
 <details>
 <summary>## 👥 Actores del Sistema</summary>
