@@ -9,7 +9,7 @@
 
 </div>
 
-- Repositorio del proyecto: [DesarrolloSistemaPosgrado](https://github.com/annaluzserena/Desarrollo_Sistema_Posgrado)
+<strong>Repositorio del proyecto: [DesarrolloSistemaPosgrado](https://github.com/annaluzserena/Desarrollo_Sistema_Posgrado)</strong>
 
 ---
 
@@ -29,7 +29,8 @@
 ---
 
 <details>
-## <summary>👨‍💻 Integrantes del Equipo</summary>
+## 👨‍💻 Integrantes del Equipo
+<summary><strong>Integrantes del equipo</strong></summary>
 
 | Nombre | GitHub |
 |---|---|
@@ -44,7 +45,8 @@
 ---
 
 <details>
-<summary>## 🌐 Contexto del Dominio</summary>
+## 🌐 Contexto del Dominio
+<summary><strong>Contexto del Dominio</strong></summary>
 
 > **Situación Actual (Problema)**
 >
@@ -63,7 +65,8 @@ El sistema a desarrollar cubre cuatro módulos principales:
 ---
 
 <details>
-<summary>## 👥 Actores del Sistema</summary>
+## 👥 Actores del Sistema
+<summary><strong>Actores del Sistema</strong></summary>
 
 ### 🙋 Aspirante
 Es el usuario externo interesado en una carrera. Su responsabilidad es acceder al sistema mediante un enlace para completar el formulario de inscripción web (datos personales, motivaciones, etc.) y cargar la documentación obligatoria en PDF (DNI, títulos, partida de nacimiento y formularios de beca si corresponde).
@@ -84,7 +87,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 ---
 
 <details>
-<summary>## 🗂️ Épicas</summary>
+## 🗂️ Épicas
+<summary><strong>Epicas</strong></summary>
 
 ### `EP-01` · Gestión de Inscripciones
 **Alcance:** Cubre el proceso inicial desde que el aspirante accede al enlace web hasta que se conforma su legajo digital.
@@ -123,7 +127,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 ---
 
 <details>
-<summary>## 📖 Historias de Usuario</summary>
+## 📖 Historias de Usuario
+<summary><strong>Historias de Usuario</strong></summary>
 
 ### EP-01 · Gestión de Inscripciones
 
@@ -177,7 +182,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 ---
 
 <details>
-<summary>## ✅ Criterios de Aceptación</summary>
+## ✅ Criterios de Aceptación
+<summary><strong>Criterios de Aceptación</strong></summary>
 
 > Los criterios de aceptación son condiciones específicas y verificables que una historia de usuario **DEBE** satisfacer para considerarse completa. Se expresan en formato **Dado / Cuando / Entonces** (Gherkin).
 
@@ -517,7 +523,8 @@ Actor con responsabilidad técnica crítica y diferenciada. Es el único rol enc
 ---
 
 <details>
-<summary>## 🎯 Story Points</summary>
+## 🎯 Story Points
+<summary><strong>Story Points</strong></summary>
 
 La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo relativo de cada historia:
 
@@ -560,7 +567,8 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 ---
 
 <details>
-<summary>## 🏷️ Priorización MoSCoW</summary>
+## 🏷️ Priorización MoSCoW
+<summary><strong>Priorización MoSCoW</strong></summary>
 
 | Etiqueta | Significado |
 |---|---|
@@ -599,7 +607,8 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 ---
 
 <details>
-<summary>## 🚀 Planificación de Sprints</summary>
+## 🚀 Planificación de Sprints
+<summary><strong>Planificación de Sprints</strong></summary>
 
 > **Configuración del equipo:** 6 integrantes · Velocidad estimada: ~18 SP por sprint · Duración: 2 semanas por sprint
 
@@ -696,7 +705,8 @@ La escala utilizada sigue la secuencia de **Fibonacci** para estimar el esfuerzo
 ---
 
 <details>
-<summary>## 📊 Product Backlog Completo</summary>
+## 📊 Product Backlog Completo
+<summary><strong>Product Backlog Completo</strong></summary>
 
 | ID | Épica | Historia de Usuario | Criterios de Aceptación (resumen) | SP | Prior. | Sprint |
 |:---:|:---:|---|---|:---:|:---:|:---:|
